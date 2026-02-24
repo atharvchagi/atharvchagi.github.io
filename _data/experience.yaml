@@ -14,13 +14,13 @@ experiences:
   - place: ""
     time: "June 2024"
     title: "Trip to India!"
-    subtitle: "<img src='/assets/experience/kerala.jpeg' style='max-width:400px; margin-top:10px;'>"
+    subtitle: "<img src='/assets/experience/kerala.jpeg' alt='Kerala trip'>"
     category: "milestone"
 
   - place: ""
     time: "Apr 2024"
     title: "Recommendation System for Album of the Week (AOTW)"
-    subtitle: "<a href='https://www.tamuaotw.com/' target='_blank'>tamuaotw.com</a><br/><img src='/assets/experience/album_space.jpg' style='max-width:400px; margin-top:10px;'>"
+    subtitle: "<a href='https://www.tamuaotw.com/' target='_blank'>tamuaotw.com</a><br/><img src='/assets/experience/album_space.jpg' alt='Album space visualization'>"
     category: "milestone"
 
   - place: ""
