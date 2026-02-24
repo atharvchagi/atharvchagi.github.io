@@ -1,4 +1,16 @@
 experiences:
+  - place: "Siemens"
+    time: "May - Aug 2025"
+    title: "Software Engineering Intern"
+    subtitle: "Electrical Product R&D, Atlanta, GA | RAG for researchers & embedded Linux development"
+    category: "work"
+
+  - place: "DIVE Lab"
+    time: "Aug 2024 - Present"
+    title: "Student Researcher"
+    subtitle: "Generative modeling for molecules/drug discovery | <a href='https://github.com/divelab' target='_blank'>GitHub</a>"
+    category: "work"
+
   - place: ""
     time: "Dec 2024"
     title: "Wrote some math papers."
@@ -22,6 +34,18 @@ experiences:
     title: "Recommendation System for Album of the Week (AOTW)"
     subtitle: "<a href='https://www.tamuaotw.com/' target='_blank'>tamuaotw.com</a><br/><img src='/assets/experience/album_space.jpg' alt='Album space visualization'>"
     category: "milestone"
+
+  - place: "Texas A&M Institute of Data Science"
+    time: "Aug 2023 - May 2024"
+    title: "Mathematics & Machine Learning Researcher"
+    subtitle: "Funded by U.S. Department of Defense | Engineered neural networks for PDEs with TensorFlow, JAX, PyTorch"
+    category: "work"
+
+  - place: "Texas A&M University"
+    time: "Aug 2023 - Dec 2027"
+    title: "Student"
+    subtitle: "MS Computer Science, BS Computer Science, BS Applied Mathematics | GPA: 3.96"
+    category: "school"
 
   - place: ""
     time: "Sept 2023"
