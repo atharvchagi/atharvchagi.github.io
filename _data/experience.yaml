@@ -1,8 +1,8 @@
 experiences:
   - place: ""
     time: "Dec 2024"
-    title: "Math papers on measure theory and Galois theory"
-    subtitle: ""
+    title: "Wrote some math papers."
+    subtitle: "<a href='/assets/experience/measure_theory.pdf' target='_blank'>Measure Theory</a> | <a href='/assets/experience/galois_theory.pdf' target='_blank'>Galois Theory</a>"
     category: "milestone"
 
   - place: ""
@@ -13,7 +13,7 @@ experiences:
 
   - place: ""
     time: "June 2024"
-    title: "Trip to India!"
+    title: "Trip to India - Munnar, Kerala"
     subtitle: "<img src='/assets/experience/kerala.jpeg' alt='Kerala trip'>"
     category: "milestone"
 
