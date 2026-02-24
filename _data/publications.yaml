@@ -1,17 +1,13 @@
 papers:
+  # Example format:
+  #  - title: "Your Paper Title"
+  #    authors: "Author1, <b>Your Name</b>, Author3"
+  #    venue: "Conference/Journal'24: Full name. 2024."
+  #    paper_pdf: "/assets/publications/your-paper/paper.pdf"
+  #    code: "https://github.com/your-repo"
+  #    selected: y  # or n
 
-  - title: "Community Notes Moderate Engagement With and Diffusion of False Information Online"
-    authors: "Isaac Slaughter, Axel Peytavin, Johan Ugander, <b>Martin Saveski</b>"
-    venue: "Arxiv'25: arXiv preprint. 2025."
-    paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
-    selected: y
-
-  - title: "Supernotes: Driving Consensus in Crowd-Sourced Fact-Checking"
-    authors: "Soham De, Michiel A. Bakker, Jay Baxter, <b>Martin Saveski</b>"
-    venue: "WWW'25: The Web Conference. 2025."
-    paper_pdf: "/assets/publications/2024_supernotes/paper.pdf"
-    code: "https://github.com/saveski-lab/supernotes"
-    selected: y
+  # Add your publications here
 
   - title: "Social Media Algorithms Can Shape Affective Polarization via Exposure to Antidemocratic Attitudes and Partisan Animosity"
     authors: "Tiziano Piccardi<sup>‡</sup>, <b>Martin Saveski<sup>‡</sup></b>, Chenyan Jia<sup>‡</sup>, Jeffrey Hancock, Jeanne Tsai, Michael Bernstein"
@@ -44,7 +40,7 @@ papers:
     authors: "Michael Bernstein, Angèle Christin, Jeffrey Hancock, Tatsunori Hashimoto, Chenyan Jia, Michelle S. Lam, Nicole Meister, Nathaniel Persily, Tiziano Piccardi, <b>Martin Saveski</b>, Jeanne Tsai, Johan Ugander, Chunchen Xu"
     venue: "JOTS'23: Journal of Online Trust and Safety. 2023."
     paper_pdf: "/assets/publications/2023_embedding_societal_values/paper.pdf"
-    selected: y    
+    selected: y
 
   - title: "Engaging Politically Diverse Audiences on Social Media"
     authors: "<b>Martin Saveski</b>, Doug Beeferman, David McClure, Deb Roy"
