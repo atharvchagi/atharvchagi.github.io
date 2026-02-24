@@ -1,4 +1,10 @@
 experiences:
+  - place: "Texas A&M University"
+    time: "Dec 2025 - Present"
+    title: "Teaching Assistant"
+    subtitle: "CSCE 421: Machine Learning"
+    category: "work"
+
   - place: "Siemens"
     time: "May - Aug 2025"
     title: "Software Engineering Intern"
