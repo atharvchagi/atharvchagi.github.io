@@ -14,7 +14,7 @@ experiences:
   - place: ""
     time: "Dec 2024"
     title: "Wrote some math papers."
-    subtitle: "<a href='/assets/experience/measure_theory.pdf' target='_blank'>Measure Theory</a> | <a href='/assets/experience/galois_theory.pdf' target='_blank'>Galois Theory</a>"
+    subtitle: "<a href='/assets/experience/measure_theory.pdf' target='_blank'>Measure Theory</a> | <a href='/assets/experience/galois_theory.pdf' target='_blank'>Galois Theory</a> | <a href='/assets/experience/equivariant_neural_networks.pdf' target='_blank'>Equivariant Neural Networks</a>"
     category: "milestone"
 
   - place: ""
