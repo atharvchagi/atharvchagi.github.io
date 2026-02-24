@@ -1,28 +1,4 @@
 experiences:
-  - place: "Texas A&M University"
-    time: "Aug 2024 - Present"
-    title: "Deep Learning/Generative Modeling Researcher"
-    subtitle: "Data, Integration, Visualization, and Exploration (DIVE) Lab | Advisor: Shuiwang Ji <br/> Designing experiments with LLMs and generative models. Developing molecular structure models with PyTorch. Leading research on LLMs, AI Agents for NeurIPS, ICLR 2026."
-    category: "work"
-
-  - place: "Siemens"
-    time: "May 2025 - Aug 2025"
-    title: "Software Engineering Intern – R&D"
-    subtitle: "Built LangChain-based document pipelines with RAG. Designed ML-based power forecasting models on embedded systems using MicroPython, C++. Presented to 200+ researchers."
-    category: "work"
-
-  - place: "Texas A&M Institute of Data Science"
-    time: "Aug 2023 - May 2024"
-    title: "Mathematics & Machine Learning Researcher"
-    subtitle: "Funded by U.S. Department of Defense. Engineered neural networks for PDEs with TensorFlow, JAX, PyTorch. Reduced model training time by 25% using GPU clusters and CUDA."
-    category: "work"
-
-  - place: "Texas A&M University"
-    time: "Aug 2023 - Dec 2027"
-    title: "Student"
-    subtitle: "MS Computer Science, BS Computer Science, BS Applied Mathematics | GPA: 3.96 <br/> Craig and Galen Brown Engineering Honors, Aggie CSCE 421 ML Course Assistant, Data Science Project Logistics Lead"
-    category: "school"
-
   - place: ""
     time: "Dec 2024"
     title: "Math papers on measure theory and Galois theory"
@@ -38,13 +14,13 @@ experiences:
   - place: ""
     time: "June 2024"
     title: "Trip to India!"
-    subtitle: ""
+    subtitle: "<img src='/assets/experience/kerala.jpeg' style='max-width:400px; margin-top:10px;'>"
     category: "milestone"
 
   - place: ""
     time: "Apr 2024"
-    title: "Recommendation System for Artist of the Week (AOTW)"
-    subtitle: "<a href='https://www.tamuaotw.com/' target='_blank'>tamuaotw.com</a>"
+    title: "Recommendation System for Album of the Week (AOTW)"
+    subtitle: "<a href='https://www.tamuaotw.com/' target='_blank'>tamuaotw.com</a><br/><img src='/assets/experience/album_space.jpg' style='max-width:400px; margin-top:10px;'>"
     category: "milestone"
 
   - place: ""
