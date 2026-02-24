@@ -2,13 +2,13 @@ experiences:
   - place: "Siemens"
     time: "May - Aug 2025"
     title: "Software Engineering Intern"
-    subtitle: "Electrical Product R&D, Atlanta, GA | RAG for researchers & embedded Linux development"
+    subtitle: "Electrical Products: R&D in Atlanta, GA<br/>RAG Agents for researchers & embedded Linux development"
     category: "work"
 
   - place: "DIVE Lab"
     time: "Aug 2024 - Present"
     title: "Student Researcher"
-    subtitle: "Generative modeling for molecules/drug discovery | <a href='https://github.com/divelab' target='_blank'>GitHub</a>"
+    subtitle: "Drug discovery, diffusion, agents LLMs | <a href='https://github.com/divelab' target='_blank'>GitHub</a>"
     category: "work"
 
   - place: ""
