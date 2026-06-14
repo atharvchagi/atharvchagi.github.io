@@ -14,7 +14,7 @@ title: Home
   </p> 
 
   <p>
-  I'm currently working in the DIVE Lab advised by <a href="https://people.tamu.edu/~sji/" target="_blank">Dr. Shuiwang Ji</a> (also collaborating with <a href="https://people.tamu.edu/~dileep.kalathil/" target="_blank">Dr. Dileep Kalathil</a> and <a href="https://people.engr.tamu.edu/caverlee/index.html" target="_blank">James Caverlee</a>), developing post-training methods for Large Language Models and Diffusion Language Models. 
+  I'm currently working in the DIVE Lab advised by <a href="https://people.tamu.edu/~sji/" target="_blank">Dr. Shuiwang Ji</a> (also collaborating with <a href="https://people.tamu.edu/~dileep.kalathil/" target="_blank">Dr. Dileep Kalathil</a> and <a href="https://people.engr.tamu.edu/caverlee/index.html" target="_blank">Dr. James Caverlee</a>), developing post-training methods for Large Language Models and Diffusion Language Models.
   </p>
 
   <p>
@@ -52,15 +52,40 @@ title: Home
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
 
-  <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-    <div style="flex: 1 1 360px;">
-      <b>Learnability-Informed Fine-Tuning of Diffusion Language Models</b><br/>
-      Shubham Parashar &sdot; <b>Atharv Chagi</b> &sdot; Jacob Helwig &sdot; Lakshmi Madhavarapu &sdot; Sushil Vemuri &sdot; James Caverlee &sdot; Dileep Kalathil &sdot; Shuiwang Ji<br/>
-      <i>43rd International Conference on Machine Learning (<b>ICML 2026</b>)</i><br/>
-      <a href="https://arxiv.org/abs/2605.22939" target="_blank">Paper</a> &sdot;
-      <a href="https://github.com/divelab/LIFT" target="_blank">Code</a>
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#publications-published">Publications</div></li>
+    <li><div class="button" data-ref="#publications-preprints">Preprints</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="publications-published">
+      <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+        <div style="flex: 1 1 360px;">
+          <b>Learnability-Informed Fine-Tuning of Diffusion Language Models</b><br/>
+          Shubham Parashar &sdot; <u><i>Atharv Chagi</i></u> &sdot; Jacob Helwig &sdot; Lakshmi Madhavarapu &sdot; Sushil Vemuri &sdot; James Caverlee &sdot; Dileep Kalathil &sdot; Shuiwang Ji<br/>
+          <i>43rd International Conference on Machine Learning (<b>ICML 2026</b>)</i><br/>
+          <a href="https://arxiv.org/abs/2605.22939" target="_blank">Paper</a> &sdot;
+          <a href="https://github.com/divelab/LIFT" target="_blank">Code</a>
+        </div>
+        <img src="{{ site.baseurl }}/assets/publications/2026_lift/framework.png" alt="LIFT framework diagram" style="width: 300px; max-width: 100%; height: auto;" />
+      </div>
     </div>
-    <img src="{{ site.baseurl }}/assets/publications/2026_lift/framework.png" alt="LIFT framework diagram" style="width: 300px; max-width: 100%; height: auto;" />
+
+    <div class="tab-pane" id="publications-preprints">
+      <div class="paper" style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+        <div style="flex: 1 1 360px;">
+          <b>Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation</b><br/>
+          Xingyu Su<sup>*</sup> &sdot; Jacob Helwig<sup>*</sup> &sdot; Shubham Parashar<sup>*</sup> &sdot; <u><i>Atharv Chagi</i></u> &sdot; Lakshmi Jotsna &sdot; Degui Zhi &sdot; James Caverlee &sdot; Dileep Kalathil &sdot; Shuiwang Ji<br/>
+          <i>arXiv preprint, 2026</i><br/>
+          <a href="https://opdlm.vercel.app/" target="_blank">Project</a> &sdot;
+          <a href="https://arxiv.org/abs/2606.06712" target="_blank">Paper</a> &sdot;
+          <a href="https://github.com/divelab/OPDLM/tree/main" target="_blank">Code</a> &sdot;
+          <a href="https://huggingface.co/collections/divelab/opdlm" target="_blank">Models</a><br/>
+          <sup>*</sup> Equal contribution
+        </div>
+        <img src="{{ site.baseurl }}/assets/publications/2026_opdlm/framework.png" alt="OPDLM framework diagram" style="width: 300px; max-width: 100%; height: auto;" />
+      </div>
+    </div>
   </div>
 </div>
 
