@@ -1,5 +1,6 @@
 experiences:
   - place: "Texas Instruments"
+    url: "https://www.ti.com"
     time: "Jun 2026 - Aug 2026"
     title: "Software Engineering Intern"
     subtitle: "AI Agents for Chip Design | Dallas, TX"
@@ -12,6 +13,7 @@ experiences:
     category: "work"
 
   - place: "Siemens"
+    url: "https://www.siemens.com"
     time: "May - Aug 2025"
     title: "Software Engineering Intern"
     subtitle: "Electrical Products: R&D | Atlanta, GA<br/>RAG Agents & Embedded Linux development"

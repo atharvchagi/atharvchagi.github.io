@@ -2,190 +2,77 @@
 layout: default
 title: Home
 ---
-<!-- Site refreshed: 2026-11-19 -->
-<!-- ========== BIO ========== -->
-<div class="docs-section" id="bio">
-  <h4>Bio</h4>
-  <p>
-    Hi! Good to meet you, and welcome to my website! I am Atharv Chagi, a BS/MS student at Texas A&M University learning Computer Science + Math.  
-  </p>
 
-  <p>
-  This summer, I'll be a software engineering intern at <a href="https://www.ti.com" target="_blank">Texas Instruments</a>, exploring AI agents for chip design. Previously, I was a software engineering intern at <a href="https://www.siemens.com" target="_blank">Siemens</a> working on LLM applications for Electrical Products R&D teams. 
-  </p> 
-
-  <p>
-  I'm currently working in the DIVE Lab advised by <a href="https://people.tamu.edu/~sji/" target="_blank">Dr. Shuiwang Ji</a> (also collaborating with <a href="https://people.tamu.edu/~dileep.kalathil/" target="_blank">Dr. Dileep Kalathil</a> and <a href="https://people.engr.tamu.edu/caverlee/index.html" target="_blank">Dr. James Caverlee</a>), developing post-training methods for Large Language Models and Diffusion Language Models.
-  </p>
-
-  <p>
-  Feel free to reach out to me via email!
-  </p>
-</div>
-
-<!--
-<div class="docs-section" id="prospective-students">  
-  <h4>Prospective Students</h4>
-  <p>
-  <span style="display: inline-block; margin-bottom: 5px">
-    <b>I'm recruiting PhD students to start Fall 2025 at the University of Washington!</b> 
-  </span>
-  <br/> 
-  <span style="display: inline-block; margin-bottom: 5px">
-    I'm looking for students passionate about developing new <u>social media algorithms</u>, both broadly and within the scope of this <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2403434" target="_blank">NSF grant</a> (collaboration with Stanford and Northwestern). For other examples, please see my recent publications. <br/>
-  </span>
-  <span style="display: inline-block; margin-bottom: 5px">
-    Students with strong technical skills and background or interest in social network analysis, machine learning, causal inference, or natural language processing would be a great fit.
-  </span>
-  <br/>
-  <span style="display: inline-block; margin-bottom: 5px">
-    If you are interested, please apply to the UW iSchool <a href="https://ischool.uw.edu/programs/phd/admissions" target="_blank">PhD program</a> and mention me in your application.
-  </span>
-  <br/>
-  <span>
-    If you have any questions, feel free to reach out.
-  </span>
-  </p> 
-</div>
--->
-
-<!-- ========== PUBLICATIONS ========== -->
-<div class="docs-section" id="publications">
-  <h4>Publications</h4>
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#publications-published">Publications</div></li>
-    <li><div class="button" data-ref="#publications-preprints">Preprints</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="publications-published">
-      <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-        <div style="flex: 1 1 360px;">
-          <b>Learnability-Informed Fine-Tuning of Diffusion Language Models</b><br/>
-          Shubham Parashar &sdot; <u><i>Atharv Chagi</i></u> &sdot; Jacob Helwig &sdot; Lakshmi Madhavarapu &sdot; Sushil Vemuri &sdot; James Caverlee &sdot; Dileep Kalathil &sdot; Shuiwang Ji<br/>
-          <i>43rd International Conference on Machine Learning (<b>ICML 2026</b>)</i><br/>
-          <a href="https://arxiv.org/abs/2605.22939" target="_blank">Paper</a> &sdot;
-          <a href="https://github.com/divelab/LIFT" target="_blank">Code</a>
-        </div>
-        <img src="{{ site.baseurl }}/assets/publications/2026_lift/framework.png" alt="LIFT framework diagram" style="width: 300px; max-width: 100%; height: auto;" />
-      </div>
-    </div>
-
-    <div class="tab-pane" id="publications-preprints">
-      <div class="paper" style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-        <div style="flex: 1 1 360px;">
-          <b>Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation</b><br/>
-          Xingyu Su<sup>*</sup> &sdot; Jacob Helwig<sup>*</sup> &sdot; Shubham Parashar<sup>*</sup> &sdot; <u><i>Atharv Chagi</i></u> &sdot; Lakshmi Jotsna &sdot; Degui Zhi &sdot; James Caverlee &sdot; Dileep Kalathil &sdot; Shuiwang Ji<br/>
-          <i>arXiv preprint, 2026</i><br/>
-          <a href="https://opdlm.vercel.app/" target="_blank">Project</a> &sdot;
-          <a href="https://arxiv.org/abs/2606.06712" target="_blank">Paper</a> &sdot;
-          <a href="https://github.com/divelab/OPDLM/tree/main" target="_blank">Code</a> &sdot;
-          <a href="https://huggingface.co/collections/divelab/opdlm" target="_blank">Models</a><br/>
-          <sup>*</sup> Equal contribution
-        </div>
-        <img src="{{ site.baseurl }}/assets/publications/2026_opdlm/framework.png" alt="OPDLM framework diagram" style="width: 300px; max-width: 100%; height: auto;" />
-      </div>
-    </div>
+<section class="intro" id="bio" aria-labelledby="name">
+  <div class="intro-copy">
+    <p class="eyebrow">Computer Science + Math</p>
+    <h1 id="name">{{ site.data.main_info.name }}</h1>
+    <p class="intro-lead">I’m a BS/MS student at Texas A&amp;M University, graduating in May 2027.</p>
+    <p>I develop post-training methods for large language models and diffusion language models in the <a href="https://github.com/divelab">DIVE Lab</a>, advised by <a href="https://people.tamu.edu/~sji/">Shuiwang Ji</a> and collaborating with <a href="https://people.tamu.edu/~dileep.kalathil/">Dileep Kalathil</a> and <a href="https://people.engr.tamu.edu/caverlee/index.html">James Caverlee</a>.</p>
+    <ul class="link-list" aria-label="Contact and profiles">
+      <li><a href="#contact">Email</a></li>
+      <li><a href="{{ site.data.main_info.github }}">GitHub <span aria-hidden="true">↗</span></a></li>
+      <li><a href="{{ site.data.main_info.linkedin }}">LinkedIn <span aria-hidden="true">↗</span></a></li>
+    </ul>
   </div>
-</div>
+  <img class="portrait" src="{{ site.data.main_info.profile_pic | relative_url }}" alt="Atharv Chagi" width="2560" height="1920" fetchpriority="high">
+</section>
 
-<!-- ========== PROJECTS ========== 
-<div class="docs-section" id="projects">
-  <h4>Projects</h4>
+<section class="site-section" id="publications" aria-labelledby="research-heading">
+  <h2 id="research-heading">Research</h2>
 
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
+  <article class="research-entry" id="publications-published">
+    <div>
+      <p class="eyebrow">ICML 2026</p>
+      <h3><a href="https://arxiv.org/abs/2605.22939">Learnability-Informed Fine-Tuning of Diffusion Language Models</a></h3>
+      <p class="entry-meta">Shubham Parashar, <strong>Atharv Chagi</strong>, Jacob Helwig, Lakshmi Madhavarapu, Sushil Vemuri, James Caverlee, Dileep Kalathil, Shuiwang Ji</p>
+      <ul class="link-list" aria-label="LIFT resources">
+        <li><a href="https://arxiv.org/abs/2605.22939">Paper</a></li>
+        <li><a href="https://github.com/divelab/LIFT">Code</a></li>
+      </ul>
     </div>
+    <a class="research-figure" href="{{ '/assets/publications/2026_lift/framework.png' | relative_url }}" aria-label="Open the full LIFT framework diagram">
+      <img src="{{ '/assets/publications/2026_lift/framework.png' | relative_url }}" alt="LIFT framework diagram" width="11201" height="3228" loading="lazy" decoding="async">
+    </a>
+  </article>
 
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
+  <article class="research-entry" id="publications-preprints">
+    <div>
+      <p class="eyebrow">arXiv preprint · 2026</p>
+      <h3><a href="https://arxiv.org/abs/2606.06712">Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation</a></h3>
+      <p class="entry-meta">Xingyu Su<sup>*</sup>, Jacob Helwig<sup>*</sup>, Shubham Parashar<sup>*</sup>, <strong>Atharv Chagi</strong>, Lakshmi Jotsna, Degui Zhi, James Caverlee, Dileep Kalathil, Shuiwang Ji</p>
+      <p class="entry-note"><sup>*</sup> Equal contribution</p>
+      <ul class="link-list" aria-label="OPDLM resources">
+        <li><a href="https://opdlm.vercel.app/">Project</a></li>
+        <li><a href="https://arxiv.org/abs/2606.06712">Paper</a></li>
+        <li><a href="https://github.com/divelab/OPDLM/tree/main">Code</a></li>
+        <li><a href="https://huggingface.co/collections/divelab/opdlm">Models</a></li>
+      </ul>
     </div>
-  </div>
+    <a class="research-figure" href="{{ '/assets/publications/2026_opdlm/framework.png' | relative_url }}" aria-label="Open the full OPDLM framework diagram">
+      <img src="{{ '/assets/publications/2026_opdlm/framework.png' | relative_url }}" alt="OPDLM framework diagram" width="6712" height="2421" loading="lazy" decoding="async">
+    </a>
+  </article>
+</section>
 
-</div>
--->
-
-<!-- ========== RESUME ========== -->
-<div class="docs-section" id="resume">
-  <h4>Experience</h4>
-
-  <!-- The Timeline -->
-  <ul class="timeline">
+<section class="site-section" id="resume" aria-labelledby="experience-heading">
+  <h2 id="experience-heading">Experience</h2>
+  <ul class="experience-list">
     {% for exp in site.data.experience.experiences %}
-    <li>
-      {% assign mod = forloop.index0 | modulo: 2 %}
-      {% if mod == 0 %}
-      <div class="direction-l">
-      {% else %}
-      <div class="direction-r">
-      {% endif %}
-        <div class="flag-wrapper">
-          <span class="flag">{{ exp.place }}</span>
-          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
-        </div>
-        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+    <li class="experience-entry">
+      <span class="experience-date">{{ exp.time | replace: ' - ', ' – ' }}</span>
+      <div>
+        {% if exp.place != "" %}
+        <h3>{% if exp.url %}<a href="{{ exp.url }}">{{ exp.place }}</a>{% else %}{{ exp.place }}{% endif %}</h3>
+        <p>{{ exp.title }}</p>
+        {% else %}
+        <h3>{{ exp.title }}</h3>
+        {% endif %}
+        {% if exp.subtitle != "" %}
+        <div class="entry-meta">{{ exp.subtitle }}</div>
+        {% endif %}
       </div>
     </li>
     {% endfor %}
   </ul>
-</div>
+</section>
