@@ -40,13 +40,13 @@ experiences:
   - place: "India Trip"
     time: "June 2024"
     title: "Trip to India - Munnar, Kerala"
-    subtitle: "<img src='/assets/experience/kerala.jpeg' alt='Kerala trip'>"
+    subtitle: ""
     category: "milestone"
 
   - place: "Aggie Data Science Club"
     time: "Apr 2024"
     title: "Recommendation System for Album of the Week (AOTW)"
-    subtitle: "<a href='https://www.tamuaotw.com/' target='_blank'>tamuaotw.com</a><br/><img src='/assets/experience/album_space.jpg' alt='Album space visualization'>"
+    subtitle: "<a href='https://www.tamuaotw.com/' target='_blank'>tamuaotw.com</a>"
     category: "milestone"
 
   - place: "Texas A&M Institute for Data Science"

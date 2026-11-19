@@ -127,11 +127,11 @@ h2 {
 }
 
 .intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.52fr);
-  align-items: center;
-  gap: clamp(2rem, 6vw, 5.25rem);
   padding-block: clamp(3rem, 7vw, 5.75rem);
+}
+
+.intro-copy {
+  max-width: 44rem;
 }
 
 .intro h1 {
@@ -154,15 +154,6 @@ h2 {
 .intro-lead + p {
   margin-top: 0.8rem;
   color: var(--muted);
-}
-
-.portrait {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 2px;
 }
 
 .link-list {
@@ -190,11 +181,11 @@ h2 {
 }
 
 .research-entry {
-  display: grid;
-  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
-  align-items: center;
-  gap: 1.3rem clamp(1.5rem, 5vw, 4.5rem);
   padding-block: 1.5rem;
+}
+
+.research-entry > div {
+  max-width: 46rem;
 }
 
 .research-entry + .research-entry {
@@ -216,23 +207,6 @@ h2 {
 
 .entry-note {
   margin-top: 0.25rem;
-}
-
-.research-figure {
-  display: block;
-  padding: 0.875rem;
-  border: 1px solid var(--rule);
-  border-radius: 2px;
-  background: #fbf8f2;
-}
-
-.research-figure:hover {
-  border-color: var(--accent);
-}
-
-.research-figure img {
-  width: 100%;
-  height: auto;
 }
 
 .experience-list {
@@ -258,12 +232,6 @@ h2 {
   font-weight: 700;
 }
 
-.experience-entry img {
-  width: min(100%, 23rem);
-  margin-top: 0.6rem;
-  border-radius: 2px;
-}
-
 .project-content {
   max-width: 48rem;
   padding-block: clamp(3rem, 7vw, 5rem);
@@ -277,20 +245,6 @@ h2 {
 
 .project-content p, .project-content figure {
   margin: 1rem 0;
-}
-
-@media (max-width: 45rem) {
-  .intro, .research-entry {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .portrait {
-    width: min(100%, 19rem);
-  }
-
-  .research-figure {
-    width: min(100%, 27rem);
-  }
 }
 
 @media (max-width: 32rem) {
