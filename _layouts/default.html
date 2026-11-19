@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en"{% if page.theme == 'sage' %} data-sage-theme{% endif %}>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,14 +8,14 @@
   <meta name="author" content="{{ site.data.main_info.name | escape }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&amp;display=swap">
   {% if page.path == 'index.html' %}
   <link rel="stylesheet" href="{{ '/libs/external/fontawesome-free-6.6.0-web/css/all.min.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/libs/external/academicons-1.8.6/css/academicons.min.css' | relative_url }}">
   {% endif %}
   <link rel="stylesheet" href="{{ '/libs/custom/my_css.css' | relative_url }}">
 </head>
-<body>
+<body{% if page.url == '/more/' %} class="sage-fade"{% endif %}>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header shell">
@@ -23,6 +23,7 @@
       <a href="{{ '/' | relative_url }}#bio">About</a>
       <a href="{{ '/' | relative_url }}#publications">Research</a>
       <a href="{{ '/' | relative_url }}#resume">Experience</a>
+      <a href="{{ '/more/' | relative_url }}"{% if page.url == '/more/' %} aria-current="page"{% endif %}>More</a>
     </nav>
   </header>
 

@@ -1,0 +1,29 @@
+{% assign paper_heading = include.heading | default: 'h3' %}
+<article class="research-entry" id="publications-published">
+  <div>
+    <p class="eyebrow">ICML 2026</p>
+    <{{ paper_heading }}><a href="https://arxiv.org/abs/2605.22939">Learnability-Informed Fine-Tuning of Diffusion Language Models</a></{{ paper_heading }}>
+    <p class="entry-meta">Shubham Parashar, <strong>Atharv Chagi</strong>, Jacob Helwig, Lakshmi Madhavarapu, Sushil Vemuri, James Caverlee, Dileep Kalathil, Shuiwang Ji</p>
+    <ul class="link-list" aria-label="LIFT resources">
+      <li><a href="https://arxiv.org/abs/2605.22939">Paper</a></li>
+      <li><a href="https://github.com/divelab/LIFT">Code</a></li>
+    </ul>
+  </div>
+  <img class="research-preview" src="{{ '/assets/publications/2026_lift/framework.png' | relative_url }}" alt="LIFT framework diagram" width="11201" height="3228" loading="lazy" decoding="async">
+</article>
+
+<article class="research-entry" id="publications-preprints">
+  <div>
+    <p class="eyebrow">COLM 2026 NonAR-LM · <span class="paper-distinction">Oral</span></p>
+    <{{ paper_heading }}><a href="https://arxiv.org/abs/2606.06712">Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation</a></{{ paper_heading }}>
+    <p class="entry-meta">Xingyu Su<sup>*</sup>, Jacob Helwig<sup>*</sup>, Shubham Parashar<sup>*</sup>, <strong>Atharv Chagi</strong>, Lakshmi Jotsna, Degui Zhi, James Caverlee, Dileep Kalathil, Shuiwang Ji</p>
+    <p class="entry-note"><sup>*</sup> Equal contribution</p>
+    <ul class="link-list" aria-label="OPDLM resources">
+      <li><a href="https://opdlm.vercel.app/">Project</a></li>
+      <li><a href="https://arxiv.org/abs/2606.06712">Paper</a></li>
+      <li><a href="https://github.com/divelab/OPDLM/tree/main">Code</a></li>
+      <li><a href="https://huggingface.co/collections/divelab/opdlm">Models</a></li>
+    </ul>
+  </div>
+  <img class="research-preview" src="{{ '/assets/publications/2026_opdlm/framework.png' | relative_url }}" alt="OPDLM framework diagram" width="6712" height="2421" loading="lazy" decoding="async">
+</article>
